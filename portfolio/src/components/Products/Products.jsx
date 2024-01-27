@@ -8,7 +8,7 @@ const Products = () => {
   return (
     <div className="container">
         <div className="textsec">
-            <h1 className='t text-5xl font-semibold'><span style={{ color: '#6366F1' }}>&lt;</span>Projects</h1>
+            <h1 className='t text-5xl font-semibold'><span style={{ color: '#6366F1' }}>&lt;</span>Products</h1>
             <h1 className='lambo text-2xl mb-5'>Check out the projects I've created, mixture of past work & current WIP's.<span className= "text-3xl font-bold" style={{ color: '#6366F1' }}>/&gt;</span></h1>    
         </div>
         <div className="productbox flex justify-between gap-[10vh] align-middle items-center">
