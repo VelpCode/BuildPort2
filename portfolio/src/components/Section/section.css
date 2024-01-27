@@ -1,7 +1,8 @@
 
 
 .divspal {
-    border: 3px solid black;
+    box-shadow: 10px 5px 8px rgba(4, 4, 0, 0.1);
+
     border-radius: 10px;
 }
 
@@ -13,8 +14,6 @@
   }
   
   .card {
-    /* Styles for individual cards */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    /* Styles for individual cards */    border-radius: 10px;
     overflow: hidden; /* If you have images that should be contained within the cards */
   }
