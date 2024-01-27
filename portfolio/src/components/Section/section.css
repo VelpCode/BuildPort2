@@ -1,0 +1,20 @@
+
+
+.divspal {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px; /* Space between intro and cards */
+  }
+  
+  .card {
+    /* Styles for individual cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden; /* If you have images that should be contained within the cards */
+  }

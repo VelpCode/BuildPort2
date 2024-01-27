@@ -1,0 +1,18 @@
+
+
+
+.bubble {
+    border: 1px solid #aeb0fd;
+    background-color: #f1f1fe; 
+    color: #6366F1;
+    width: 14vh;
+    border-radius: 35px;
+    text-align: center;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.lambo {
+    margin-top: 1vh;
+    color: #888888;
+}

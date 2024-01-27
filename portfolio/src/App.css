@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Regular'), local('Poppins-Regular'),
+       url('./fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use the font */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  }
+
+.container {
+  background-color: white;
+  
+}
+
+
+* {
+  align-items: center;
+}

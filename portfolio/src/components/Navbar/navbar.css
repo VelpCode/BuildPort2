@@ -1,0 +1,17 @@
+a {
+    font-size: 3vh;
+}
+
+.bbox {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #6366F1;
+}
+
+
+.pixvelp {
+    height: 10vh;
+}
+
