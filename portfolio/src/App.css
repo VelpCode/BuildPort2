@@ -15,10 +15,13 @@ body {
   justify-content: space-around;
   }
 
-.container {
-  background-color: white;
-  
-}
+  body {
+    background-image: url('../../portfolio/public/bgback2.png');
+    background-size: cover; /* Cover the entire page */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: This makes the background fixed during scroll */
+    background-position: center center; /* Center the image */
+  }
 
 
 * {

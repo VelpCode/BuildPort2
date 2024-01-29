@@ -3,7 +3,6 @@
 .ladoo {
     border: 3px solid black;
     border-radius: 30px;
-  background-color: #fff; /* white background */
   box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.75);
 }
 

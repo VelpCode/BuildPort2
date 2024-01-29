@@ -16,6 +16,7 @@ import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { ReactComponent as YourIcon } from './undraw_fun-underline.svg';
+import { ReactComponent as YourIcon } from './undraw_fun-underline.svg';
 import { SiFramer } from "react-icons/si";
 import { SiAdobephotoshop } from "react-icons/si";
 
