@@ -16,7 +16,7 @@ import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { ReactComponent as YourIcon } from './undraw_fun-underline.svg';
-import { ReactComponent as YourIcon } from './undraw_fun-underline.svg';
+import { ReactComponent as Arrow } from './archedarrow.svg';
 import { SiFramer } from "react-icons/si";
 import { SiAdobephotoshop } from "react-icons/si";
 
@@ -51,7 +51,7 @@ const Hero = () => {
                 className='text-[5vh] ml-3'/></motion.div>
                 <YourIcon  className = "mamooty ml-8"/>
               </div>
-              
+          <Arrow className = "pindu"/>
         <div className="borderright  flex flex-col items-start max-w-[100vh]">
             <img className="ladoo" src ={Velp} />
             <div className="stacktech text-[6vh] flex mt-10 gap-2 ">

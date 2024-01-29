@@ -12,6 +12,7 @@
         border-radius: 10px;
         color: white;
         background-color: #6366F1;
+        cursor: pointer;
 }
 
 .ladoo {
@@ -42,3 +43,12 @@
   .hover-text:hover {
     color: #00f; /* Change to blue on hover */
   }
+
+
+.pindu {
+  position: absolute;
+  top: 85%;
+  left: 58%;
+  rotate: 29deg;
+  transform: scaleY(-1);
+}

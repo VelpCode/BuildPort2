@@ -9,7 +9,7 @@ const Products = () => {
     <div className="container mt-10">
         <div className="textsec">
             <h1 className='t text-4xl font-semibold'><span style={{ color: '#6366F1' }}>&lt;</span>Products</h1>
-            <h1 className='lambo text-xl mb-5'>Check out the projects I've created, mixture of past work & current WIP's.<span className= "text-3xl font-bold" style={{ color: '#6366F1' }}>/&gt;</span></h1>    
+            <h1 className='lambo text-xl mb-5'>Check out the products/templates I've created, all designed to help you with your goals.<span className= "text-3xl font-bold" style={{ color: '#6366F1' }}>/&gt;</span></h1>    
         </div>
         <div className="productbox flex justify-between gap-[10vh] align-middle items-center">
             <div className="prodone">
