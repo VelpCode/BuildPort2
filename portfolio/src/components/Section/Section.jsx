@@ -22,7 +22,7 @@ const Section = () => {
                     <div className="bubble font-bold text-sm">
                         Illustration
                     </div>
-                    <div className="bubble font-bold text-sm">
+                    <div className="bubble font-bold text-xs">
                         Open Source
                     </div>
                 </div>
