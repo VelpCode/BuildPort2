@@ -8,4 +8,6 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
+    pointer-events: none;
+    user-select: none;
 }

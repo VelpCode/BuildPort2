@@ -15,3 +15,7 @@ a {
     height: 10vh;
 }
 
+
+.fontlad {
+    user-select: none;
+}

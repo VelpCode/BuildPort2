@@ -8,7 +8,7 @@ const Navbar = () => {
 
     <div className="container inline-flex items-center justify-between">
         <div className="logo">
-          <h1 className='font text-3xl font-extrabold'><span style={{ color: '#6366F1' }}>&lt;</span>velp<span style={{ color: '#6366F1' }}>/&gt;</span></h1>
+          <h1 className='fontlad text-3xl font-extrabold'><span style={{ color: '#6366F1' }}>&lt;</span>velp<span style={{ color: '#6366F1' }}>/&gt;</span></h1>
         </div>
         <div className="items">
             <ul className='inline-flex items-center gap-5'>

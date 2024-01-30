@@ -19,6 +19,7 @@
     transform: rotate(4deg);
     transition: transform 0.3s ease;
     height: 55vh;
+    user-select: none;
 }
 
 .ladoo:hover {
