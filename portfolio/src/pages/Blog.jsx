@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar/Navbar";
 import Products from "../components/Products/Products";
+import Quote from "../components/Quote/Quote";
 import "./blogs.css"
 
 const Blog = () => {
@@ -26,38 +27,45 @@ const Blog = () => {
                 <div className="artone">
                     <div className="date">2024-01-31</div>
                     <div className="articlename font-semibold underline">Understanding how to get to that planet 🪐</div>
+                    <div className="bubbles flex gap-2">
+                        <div className="bubble font-bold text-xs mt-2">
+                        Rant
+                        </div>
+                        <div className="bubble font-bold text-xs mt-2">
+                        Random
+                        </div>
+                    </div>
 
                 </div>
                 <div className="artone">
                     <div className="date">2024-01-31</div>
                     <div className="articlename font-semibold underline">Thoughts on stacking skills, creating passions.</div>
                     <div className="bubbles flex gap-2">
-                    <div className="bubble font-bold text-xs mt-2">
+                        <div className="bubble font-bold text-xs mt-2">
                         Thoughts
+                        </div>
+                        <div className="bubble font-bold text-xs mt-2">
+                        NoCode
+                        </div>
                     </div>
-                    <div className="bubble font-bold text-xs mt-2">
-                        Nocode
+                </div>
+                <div className="artone">
+                    <div className="date">2024-01-31</div>
+                    <div className="articlename font-semibold underline">Building in public.</div>
+                    <div className="bubbles flex gap-2">
+                        <div className="bubble font-bold text-xs mt-2">
+                        Rant
+                        </div>
+                        <div className="bubble font-bold text-xs mt-2">
+                        Random
+                        </div>
                     </div>
-                    </div>
+
                 </div>
             </div>
 
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
 
-
-            <Products className = "poraguloo"/>
+        <Quote />
 
 
         </div>

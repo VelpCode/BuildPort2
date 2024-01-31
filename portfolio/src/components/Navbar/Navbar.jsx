@@ -14,11 +14,11 @@ const Navbar = () => {
           <h1 className='fontlad text-3xl font-extrabold'><span style={{ color: '#6366F1' }}>&lt;</span>velp<span style={{ color: '#6366F1' }}>/&gt;</span></h1>
         </div>
         <div className="items">
-            <ul className='inline-flex items-center gap-5'>
+            <ul className='inline-flex items-center gap-6'>
                   <Link to = "/home">
                     <button>Projects</button>
                   </Link>
-                <li><a>My Shop</a></li>
+                <li><a>Templates</a></li>
                   <Link to = "/blog">
                     <button>Blog</button>
                   </Link>
