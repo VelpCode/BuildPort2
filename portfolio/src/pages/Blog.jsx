@@ -10,12 +10,9 @@ const Blog = () => {
             <Navbar />
             <h3>Blogsite</h3>
         
-        
         </>
 
-
     )
-
 
 
 }
