@@ -19,3 +19,9 @@ a {
 .fontlad {
     user-select: none;
 }
+
+
+.seperator {
+    display: flex;
+    justify-content: space-between;
+}
