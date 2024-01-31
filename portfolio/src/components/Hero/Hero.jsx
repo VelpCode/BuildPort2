@@ -7,8 +7,8 @@ import { FaInstagram } from "react-icons/fa6";
 import { TbWriting } from "react-icons/tb";
 import { FaRegHandPointRight } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa6";
-import { motion } from "framer-motion"
-import { useScroll } from 'framer-motion'
+import { motion } from "framer-motion";
+import { useScroll } from 'framer-motion';
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { IoLogoFigma } from "react-icons/io5";

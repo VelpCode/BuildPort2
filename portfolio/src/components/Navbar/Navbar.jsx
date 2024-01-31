@@ -2,6 +2,7 @@ import React from 'react'
 import "./navbar.css"
 import Pixvelp from "./PXELVELP.png"
 import { motion } from "framer-motion"
+import { useHistory } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -14,7 +15,7 @@ const Navbar = () => {
             <ul className='inline-flex items-center gap-5'>
                 <li><a href = "#">Projects</a></li>
                 <li><a>My Shop</a></li>
-                <li><a>Blog</a></li>
+                <li><button>Blog</button></li>
                 <li><a>About</a></li>
                 <li>
                 <motion.div className = 
