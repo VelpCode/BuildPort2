@@ -3,6 +3,7 @@ import "./navbar.css"
 import Pixvelp from "./PXELVELP.png"
 import { motion } from "framer-motion"
 import { useHistory } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const Navbar = () => {
   return (

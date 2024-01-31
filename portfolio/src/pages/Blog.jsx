@@ -6,13 +6,13 @@ const Blog = () => {
     return (
 
         <>
-
             <Navbar />
             <h3>Blogsite</h3>
-        
         </>
 
     )
 
 
 }
+
+export default Blog;
