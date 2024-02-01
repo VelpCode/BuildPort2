@@ -2,6 +2,9 @@ import Navbar from "../components/Navbar/Navbar";
 import Products from "../components/Products/Products";
 import Quote from "../components/Quote/Quote";
 import "./blogs.css"
+import Article from "./Article";
+import { Link } from "react-router-dom";
+
 
 const Blog = () => {
 
