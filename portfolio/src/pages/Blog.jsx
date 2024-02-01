@@ -25,7 +25,7 @@ const Blog = () => {
                 </div>
 
             </div>
-
+            <Link to = "/article">
             <div className="articleposts mt-20 cursor-pointer space-y-10">
                 <div className="artone">
                     <div className="date">2024-01-31</div>
@@ -40,6 +40,7 @@ const Blog = () => {
                     </div>
 
                 </div>
+                
                 <div className="artone">
                     <div className="date">2024-01-31</div>
                     <div className="articlename font-semibold underline">Thoughts on stacking skills, creating passions.</div>
@@ -66,7 +67,7 @@ const Blog = () => {
 
                 </div>
             </div>
-
+        </Link>
 
         <Quote />
 
