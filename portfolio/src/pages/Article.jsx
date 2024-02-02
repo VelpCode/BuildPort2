@@ -1,12 +1,14 @@
-import React from 'react'
+import React, { useEffect }from 'react'
+import { Helmet } from "react-helmet"
+import myArticles from '../data/article'
+
 
 const Article = () => {
   return (
 
-
-
-    
-    <div>Article</div>
+    <Helmet>
+      <title>{`Articles | ${Article.title}`}</title>
+    </Helmet>
 
 
 
