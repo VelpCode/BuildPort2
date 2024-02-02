@@ -14,11 +14,8 @@ const Blog = () => {
             <Navbar />
 
             <div className="headtitle mt-[15vh] max-w-[200vh]">
-
                 <div className="leftsec">
                 <h1 className="curious text-6xl font-semibold"><span style={{ color: '#6366F1' }}>&lt;</span> Combining my curiosities.</h1>
-
-
                 </div>
                 <div className="rightsec">
                 <h1 className="curious text-3xl font-semibold">Diving deeper into lifestyle, code, design, writing. <span style={{ color: '#6366F1' }}>/&gt;</span></h1>
