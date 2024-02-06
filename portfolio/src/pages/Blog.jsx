@@ -13,24 +13,24 @@ const Blog = () => {
 
         {
             "id":1,
-            "title": 'Blog 1',
-            "tags": "Random",
+            "title": 'who am i',
+            "tags": "About",
             'desc': 'Talking about how to travel to that magical planet',
-            'coverImg': 'https://s3-alpha.figma.com/hub/file/1164680562/95e16f73-b877-4d64-8f0e-0d1d652782ea-cover.png'
+            'coverImg': 'https://i.ibb.co/tCVH5R6/whoami.png'
         },
         {
             "id":2,
             "tags": "Tech",
-            "title": 'Blog 2',
+            "title": 'Lessons for Jan',
             'desc': 'Talking about how to travel to that magical planet',
-            'coverImg': 'https://s3-alpha.figma.com/hub/file/1164680562/95e16f73-b877-4d64-8f0e-0d1d652782ea-cover.png'
+            'coverImg': 'https://i.ibb.co/48LHr7X/JanRecap.png'
         },
         {
             "id":1,
-            "tags": "Media",
-            "title": 'Blog 3',
+            "tags": "Random",
+            "title": 'Planetsat',
             'desc': 'Talking about how to travel to that magical planet',
-            'coverImg': 'https://s3-alpha.figma.com/hub/file/1164680562/95e16f73-b877-4d64-8f0e-0d1d652782ea-cover.png'
+            'coverImg': 'https://i.ibb.co/f0zqc1v/recap.png'
         }
 
     ]
@@ -54,12 +54,13 @@ const Blog = () => {
                 
                 {blogs.map((blog) => 
 
-                    <div className="bg-white rounded-xl overflow-hidden drop-shadow-md">
+                    <div className="bg-white rounded-xl overflow-hidden drop-shadow-lg">
                     <img className="h-56 w-full object-cover" src={blog.coverImg} />
                     <div className="p-8">
                             <div className="font-bold text-2xl my-1">{blog.title}</div>
-                            <div className="babble text-xs font-thin max-xs:">{blog.tags}</div>
-                            <div className="text-sm text-gray-600 my-2">{blog.desc}</div>
+                            <div className="babble text-xs font-thin max-xs mt-2">{blog.tags}</div>
+                            <div className="text-sm text-gray-600 my-2 ml-1 mt-4">{blog.desc}</div>
+                            <div className="read text-xs font-semibold ml-1 mt-3">Read More →</div>
                         </div>
                     </div>
                 
