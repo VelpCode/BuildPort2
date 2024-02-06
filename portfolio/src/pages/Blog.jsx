@@ -15,21 +15,21 @@ const Blog = () => {
             "id":1,
             "title": 'who am i',
             "tags": "About",
-            'desc': 'Talking about how to travel to that magical planet',
+            'desc': 'what these blogs are going to be about, who am i..',
             'coverImg': 'https://i.ibb.co/tCVH5R6/whoami.png'
         },
         {
             "id":2,
             "tags": "Tech",
             "title": 'Lessons for Jan',
-            'desc': 'Talking about how to travel to that magical planet',
+            'desc': 'Everything I have learned this Jan, pitfalls probelms..',
             'coverImg': 'https://i.ibb.co/48LHr7X/JanRecap.png'
         },
         {
             "id":1,
             "tags": "Random",
             "title": 'Planetsat',
-            'desc': 'Talking about how to travel to that magical planet',
+            'desc': 'It always ends up leading there eventually..',
             'coverImg': 'https://i.ibb.co/f0zqc1v/recap.png'
         }
 
