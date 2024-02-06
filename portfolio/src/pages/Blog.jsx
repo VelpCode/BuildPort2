@@ -10,65 +10,19 @@ const Blog = () => {
 
     return (
         
-        <div>
+        <div className="w-full">
             <Navbar />
-
-            <div className="headtitle mt-[15vh] max-w-[200vh]">
-                <div className="leftsec">
-                <h1 className="curious text-6xl font-semibold"><span style={{ color: '#6366F1' }}>&lt;</span> Combining my curiosities.</h1>
-                </div>
-                <div className="rightsec">
-                <h1 className="curious text-3xl font-semibold">Diving deeper into lifestyle, code, design, writing. <span style={{ color: '#6366F1' }}>/&gt;</span></h1>
-                </div>
-
-            </div>
-            <Link to = "/article">
-            <div className="articleposts mt-20 cursor-pointer space-y-10">
-                <div className="artone">
-                    <div className="date">2024-01-31</div>
-                    <div className="articlename font-semibold underline">Understanding how to get to that planet 🪐</div>
-                    <div className="bubbles flex gap-2">
-                        <div className="bubble font-bold text-xs mt-2">
-                        Rant
-                        </div>
-                        <div className="bubble font-bold text-xs mt-2">
-                        Random
-                        </div>
+        <div className="max-w-[1240px] mx-auto my-20">
+            <div className="grid lg:grid-cols-3 gap-8 px-4 text-black">
+                <div className="bg-white rounded-xl overflow-hidden drop-shadow-md">
+                    <img className="h-56 w-full object-cover" src={"https://s3-alpha.figma.com/hub/file/1164680562/95e16f73-b877-4d64-8f0e-0d1d652782ea-cover.png"} />
+                    <div className="p-8">
+                        <div className="font-bold text-2xl my-1">Travelling to saturn</div>
+                        <div className="text-sm text-gray-600 my-2">Talking about the differences in</div>
                     </div>
-
-                </div>
-                
-                <div className="artone">
-                    <div className="date">2024-01-31</div>
-                    <div className="articlename font-semibold underline">Thoughts on stacking skills, creating passions.</div>
-                    <div className="bubbles flex gap-2">
-                        <div className="bubble font-bold text-xs mt-2">
-                        Thoughts
-                        </div>
-                        <div className="bubble font-bold text-xs mt-2">
-                        NoCode
-                        </div>
-                    </div>
-                </div>
-                <div className="artone">
-                    <div className="date">2024-01-31</div>
-                    <div className="articlename font-semibold underline">Building in public.</div>
-                    <div className="bubbles flex gap-2">
-                        <div className="bubble font-bold text-xs mt-2">
-                        Rant
-                        </div>
-                        <div className="bubble font-bold text-xs mt-2">
-                        Random
-                        </div>
-                    </div>
-
                 </div>
             </div>
-        </Link>
-
-        <Quote />
-
-
+        </div>
         </div>
 
     )
