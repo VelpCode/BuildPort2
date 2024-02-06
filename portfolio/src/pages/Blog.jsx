@@ -8,7 +8,6 @@ import { Link } from "react-router-dom";
 
 const Blog = () => {
 
-
     const blogs = [
 
         {
@@ -32,7 +31,6 @@ const Blog = () => {
             'desc': 'It always ends up leading there eventually..',
             'coverImg': 'https://i.ibb.co/f0zqc1v/recap.png'
         }
-
     ]
 
     return (
