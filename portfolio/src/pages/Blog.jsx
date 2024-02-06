@@ -41,15 +41,15 @@ const Blog = () => {
             <Navbar />
             <div className="headtitle mt-[15vh] max-w-[200vh] items-center justify-center flex flex-col">
                 <div className="leftsec">
-                <h1 className="curious text-4xl font-semibold"><span style={{ color: '#6366F1' }}>&lt;</span> Combining my curiosities.</h1>
+                <h1 className="curious lg:text-5xl md:text-4xl sm:text-xl font-semibold"><span style={{ color: '#6366F1' }}>&lt;</span> Combining my curiosities.</h1>
                 </div>
                 <div className="rightsec">
-                <h1 className="curious text-2xl text-gray-600 font-semibold">Diving deeper into lifestyle, code, design, writing. <span style={{ color: '#6366F1' }}>/&gt;</span></h1>
+                <h1 className="curious lg:text-2xl md:text-xl sm:text-lg text-gray-600 font-semibold">Diving deeper into lifestyle, code, design, writing. <span style={{ color: '#6366F1' }}>/&gt;</span></h1>
                 </div>
 
             </div>    
         <div className="max-w-[1240px] mx-auto my-10">
-            <div className="grid lg:grid-cols-3 gap-8 px-4 text-black">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 px-4 text-black">
                 
                 
                 {blogs.map((blog) => 
