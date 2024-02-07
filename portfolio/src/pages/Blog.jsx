@@ -55,7 +55,9 @@ const Blog = () => {
                     <div className="bg-white rounded-xl overflow-hidden drop-shadow-lg">
                     <img className="h-56 w-full object-cover" src={blog.coverImg} />
                     <div className="p-8">
+                        <Link to = "/blogcontent">
                             <div className="font-bold text-2xl my-1">{blog.title}</div>
+                        </Link>
                             <div className="babble text-xs font-thin max-xs mt-2">{blog.tags}</div>
                             <div className="text-sm text-gray-600 my-2 ml-1 mt-4">{blog.desc}</div>
                             <div className="read text-xs font-semibold ml-1 mt-3">Read More →</div>

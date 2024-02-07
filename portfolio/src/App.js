@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero"
 import Section from './components/Section/Section';
 import Products from './components/Products/Products';
 import Quote from './components/Quote/Quote';
+import Blogcontent from './components/Blogcontent/Blogcontent';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home'
 import About from './pages/About'
@@ -20,7 +21,8 @@ function App() {
           <Route path = "/about" element = {<About />} />
           <Route path = "/blog" element = {<Blog />} />
           <Route path = "/article" element = {<Article />} />
-        </Routes>
+          <Route path = "/blogcontent" element = {<Blogcontent />} />
+x         </Routes>
       </BrowserRouter>
     </div>
   );
