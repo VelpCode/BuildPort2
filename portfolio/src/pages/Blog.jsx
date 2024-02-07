@@ -4,6 +4,8 @@ import Quote from "../components/Quote/Quote";
 import "./blogs.css"
 import Article from "./Article";
 import { Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
+
 
 
 const Blog = () => {
@@ -25,7 +27,7 @@ const Blog = () => {
             'coverImg': 'https://i.ibb.co/48LHr7X/JanRecap.png'
         },
         {
-            "id":1,
+            "id":3,
             "tags": "Random",
             "title": 'Planetsat',
             'desc': 'It always ends up leading there eventually..',
@@ -51,18 +53,18 @@ const Blog = () => {
                 
                 
                 {blogs.map((blog) => 
-
+                <Link to = {`/blogcontent/${blog.id}`}>
                     <div className="bg-white rounded-xl overflow-hidden drop-shadow-lg">
                     <img className="h-56 w-full object-cover" src={blog.coverImg} />
                     <div className="p-8">
-                        <Link to = "/blogcontent">
                             <div className="font-bold text-2xl my-1">{blog.title}</div>
-                        </Link>
                             <div className="babble text-xs font-thin max-xs mt-2">{blog.tags}</div>
                             <div className="text-sm text-gray-600 my-2 ml-1 mt-4">{blog.desc}</div>
                             <div className="read text-xs font-semibold ml-1 mt-3">Read More →</div>
                         </div>
                     </div>
+                </Link>
+
                 
                 )}
 
