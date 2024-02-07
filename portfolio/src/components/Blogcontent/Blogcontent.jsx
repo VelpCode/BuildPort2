@@ -2,6 +2,17 @@ import React from 'react'
 
 
 const Blogcontent = () => {
+
+
+  const blog = {
+
+
+    
+  }
+
+
+
+
   return (
     <div>
       <div className = "w-full pb">
@@ -14,8 +25,8 @@ const Blogcontent = () => {
               <div className='pt-5 '><p>This is the blog content.</p></div>
             </div>
 
+            <div className="w-full bg-white rounded-xl overflow-hidden drop-shadow-md py-5"></div>
           </div>
-
         </div>
       </div>
     </div>
