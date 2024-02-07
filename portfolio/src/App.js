@@ -4,7 +4,7 @@ import Hero from "./components/Hero/Hero"
 import Section from './components/Section/Section';
 import Products from './components/Products/Products';
 import Quote from './components/Quote/Quote';
-import Blogcontent from './components/Blogcontent/Blogcontent';
+import Blogcontent from './pages/Blogcontent';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home'
 import About from './pages/About'
