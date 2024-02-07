@@ -6,8 +6,12 @@ const Blogcontent = () => {
 
   const blog = {
 
+    'id': 1,
+    'title': 'who i am!',
+    'desc': 'who i am!',
+    'coverImg': 'https://i.ibb.co/tCVH5R6/whoami.png',
+    'content': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
 
-    
   }
 
 
@@ -21,8 +25,8 @@ const Blogcontent = () => {
 
             <div className = "col-span-2 gap-x-8 gap-y-8">
               <img className='h-30 object-cover' src = {"kdakdjas"} />
-              <h1 className='font-bold text-6xl my-1 pt-5'>Blog Title.</h1>
-              <div className='pt-5 '><p>This is the blog content.</p></div>
+              <h1 className='font-bold text-6xl my-1 pt-4'>{blog.title}</h1>
+              <div className='pt-5 '><p>{blog.content}</p></div>
             </div>
 
             <div className="w-full bg-white rounded-xl overflow-hidden drop-shadow-md py-5"></div>
