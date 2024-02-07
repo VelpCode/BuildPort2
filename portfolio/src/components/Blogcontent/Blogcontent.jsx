@@ -4,7 +4,10 @@ import { useParams } from "react-router-dom";
 
 const Blogcontent = () => {
 
-  const {id }= useParams()
+  const { id }= useParams()
+
+
+  
 
   const blog = {
 
@@ -20,7 +23,6 @@ const Blogcontent = () => {
 
   }
 
-    
 
 
 
@@ -33,7 +35,7 @@ const Blogcontent = () => {
 
             <div className = "col-span-2 gap-x-8 gap-y-8">
               <img className='h-30 object-cover' src = {"kdakdjas"} />
-              <h1 className='font-bold text-6xl my-1 pt-4'>{id}</h1>
+              <h1 className='font-bold text-6xl my-1 pt-4'>{blog.title}</h1>
               <div className='pt-5 '><p>{blog.content}</p></div>
             </div>
 
