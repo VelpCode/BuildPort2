@@ -13,7 +13,7 @@ const Blog = () => {
         {
             "id":1,
             "title": 'who am i',
-            "tags": "About",
+            "tags": "VELP",
             'desc': 'what these blogs are going to be about, who am i..',
             'coverImg': 'https://i.ibb.co/tCVH5R6/whoami.png'
         },
