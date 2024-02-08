@@ -10,7 +10,7 @@ const Blogcontent = () => {
   
 
   const blog = {
-
+    
     'id': 1,
     'title': 'who i am!',
     'desc': 'brief description on who i am',
@@ -22,8 +22,6 @@ const Blogcontent = () => {
     'authorDesc': 'Creative Developer & Designer'
 
   }
-
-
 
 
 
