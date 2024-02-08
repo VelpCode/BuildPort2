@@ -36,7 +36,7 @@ const Blog = () => {
     ]
 
     return (
-        
+    
         <div className="w-full">
             <Navbar />
             <div className="headtitle mt-[15vh] max-w-[200vh] items-center justify-center flex flex-col">
@@ -46,7 +46,6 @@ const Blog = () => {
                 <div className="rightsec">
                 <h1 className="curious lg:text-2xl md:text-xl sm:text-lg text-gray-600 font-semibold my-2">Diving deeper into lifestyle, code, design, writing. <span style={{ color: '#6366F1' }}>/&gt;</span></h1>
                 </div>
-
             </div>    
         <div className="max-w-[1240px] mx-auto my-[8vh]">
             <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 px-4 text-black">
@@ -63,6 +62,9 @@ const Blog = () => {
                             <div className="read text-xs font-semibold ml-1 mt-3">Read More →</div>
                         </div>
                     </div>
+
+
+                    
                 </Link>
 
                 
