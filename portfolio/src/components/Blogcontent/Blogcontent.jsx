@@ -10,7 +10,7 @@ const Blogcontent = () => {
   
 
   const blog = {
-    
+
     'id': 1,
     'title': 'who i am!',
     'desc': 'brief description on who i am',
@@ -25,7 +25,7 @@ const Blogcontent = () => {
 
 
 
-  return (
+  return (  
     <div>
       <div className = "w-full pb">
         <div className = "max-w-[1240px] mx-auto">
