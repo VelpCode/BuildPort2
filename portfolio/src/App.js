@@ -10,8 +10,12 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Blog from './pages/Blog'
 import Article from './pages/Article';
+import useFetch from './hooks/useFetch';
 
 function App() {
+
+  let {loading, data, error} = useFetch('')
+
   return (
     <div>
       <BrowserRouter>
