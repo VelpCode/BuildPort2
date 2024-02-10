@@ -5,9 +5,70 @@ import "./section.css"
 import { motion } from "framer-motion"
 import { useScroll } from 'framer-motion'
 
-const Section = () => {
-  return (
-    <div className="container mt-[10vh]">
+
+
+    const Section = () => {
+        return (
+            <div className="maindiv">
+              <div className="subparts1">
+                <div className="alignment1">
+        
+                  <div>
+                    <img className="card cardpart1 bg-cover" src = {Shit}></img>
+                    <div className="cardtextsub">
+                      <h6>web &nbsp;</h6>
+                      <h6>no code</h6>
+                    </div>
+                    <h1 className="cardmaintxt">code</h1>
+                    <h3 className="cardmaintxt">othercode</h3>
+                  </div>
+        
+                  <div>
+                    <div className="card cardpart1"></div>
+                    <div className="cardtextsub">
+                      <h6>web &nbsp;</h6>
+                      <h6>no code</h6>
+                    </div>
+                    <h1 className="cardmaintxt">DivSPlash</h1>
+                    <h3 className="cardmaintxt">othercode</h3>
+                  </div>
+        
+                </div>
+              </div>
+        
+              <div className="subparts2">
+                <div className="alignment2">
+        
+                  <div>
+                    <div className="card cardpart2"></div>
+                    <div className="cardtextsub">
+                      <h6>web &nbsp;</h6>
+                      <h6>no code</h6>
+                    </div>
+                    <h1 className="cardmaintxt">code</h1>
+                    <h3 className="cardmaintxt">othercode</h3>
+                  </div>
+        
+                  <div>
+                    <div className="card cardpart2"></div>
+                    <div className="cardtextsub">
+                      <h6>web &nbsp;</h6>
+                      <h6>no code</h6>
+                    </div>
+                    <h1 className="cardmaintxt">code</h1>
+                    <h3 className="cardmaintxt">othercode</h3>
+                  </div>
+        
+                </div>
+              </div>
+            </div>
+          );
+        }
+        
+        export default Section;
+        
+
+/*     <div className="container mt-[10vh]">
     <div className="textsec">
             <h1 className='t text-5xl font-semibold'><span style={{ color: '#6366F1' }}>&lt;</span>Projects</h1>
             <h1 className='lambo text-2xl mb-10'>Check out the projects I've created, mixture of past work & current WIP's.<span className= "text-3xl font-bold" style={{ color: '#6366F1' }}>/&gt;</span></h1>    
@@ -51,4 +112,4 @@ const Section = () => {
   )
 }
 
-export default Section
+export default Section */
