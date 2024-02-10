@@ -13,7 +13,7 @@ import Article from './pages/Article';
 import useFetch from './hooks/useFetch';
 
 function App() {
-  let {loading, data, error} = useFetch('http://localhost:1337/api/blogs?populate=+*')
+  let {loading, data, error} = useFetch('http://localhost:1337/api/blogs')
   if(loading) return <p>Loading..</p>
   if(error) return <p>Error!</p>
   console.log(data)
