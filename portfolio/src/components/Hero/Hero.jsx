@@ -26,8 +26,8 @@ import { SiAdobephotoshop } from "react-icons/si";
 
 const Hero = () => {
   return (
-    <div className='container flex justify-between items-center h-screen w-full '>
-        <div className="borderleft flex flex-col items-start max-w-[200vh] mt-20">
+    <div className='container flex justify-between items-center h-screen w-full md:flex-col sm:flex-col xs:flex-col'>
+        <div className="borderleft flex flex-col items-start max-w-[200vh] mt-20 md:justify-center sm:justify-center xs:justify-center">
             <h1 className='text-5xl font-semibold mt-3'>I'm a <span className = "text-ind text-indigo-500">creative</span> <br/> developer & designer.</h1>
             
             <p className='paratext text-l mt-7 w-[100vh]'>I specialize in building stunning websites & applications that help individuals in enhancing their productivity, programming & daily goals.
