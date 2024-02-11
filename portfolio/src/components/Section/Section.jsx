@@ -12,9 +12,9 @@ import { useScroll } from 'framer-motion'
             <div className="maindiv">
               <div className="subparts1">
                 <div className="alignment1">
-        
+                  <h1 className='heading text-4xl font-semibold'><span style={{ color: '#6366F1' }}>&lt;</span>Projects</h1>
                   <div>
-                    <img className="card cardpart1 bg-cover" src = {Shit}></img>
+                    <img className="card object-cover cardpart1 bg-cover" src = {Shit}></img>
                     <div className="cardtextsub">
                       <h6>web &nbsp;</h6>
                       <h6>no code</h6>
@@ -38,7 +38,6 @@ import { useScroll } from 'framer-motion'
         
               <div className="subparts2">
                 <div className="alignment2">
-        
                   <div>
                     <div className="card cardpart2"></div>
                     <div className="cardtextsub">
@@ -48,7 +47,6 @@ import { useScroll } from 'framer-motion'
                     <h1 className="cardmaintxt">code</h1>
                     <h3 className="cardmaintxt">othercode</h3>
                   </div>
-        
                   <div>
                     <div className="card cardpart2"></div>
                     <div className="cardtextsub">
