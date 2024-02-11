@@ -43,7 +43,8 @@ body{
 }
 .cardtextsub{
   display: flex;
-
+  margin-top: 10px;
+  gap: 2vh;
 
 }
 
@@ -58,9 +59,9 @@ body{
 }
 
 .cardmaintxt{
-  color: grey;
+  color: black;
   text-transform: capitalize;
-  margin-top: -10px;
+  margin-top: 5px;
   margin-left: 20px;
 }
 
