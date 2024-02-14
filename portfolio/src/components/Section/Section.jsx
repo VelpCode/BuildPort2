@@ -1,6 +1,9 @@
 import React from 'react'
 import Shit from './shit.png'
 import Dude from './dude.png'
+import Ladoo from './Ladoo.png'
+import Velp from './Amanoty.png'
+import Activ from './Addactiv.png'
 import "./section.css"
 import { motion } from "framer-motion"
 import { useScroll } from 'framer-motion'
@@ -16,19 +19,23 @@ import { useScroll } from 'framer-motion'
                   <div>
                     <img className="card object-cover cardpart1 bg-cover" src = {Shit}></img>
                     <div className="cardtextsub gap-2">
-                      <div className='bubble'>Code</div>
-                      <div className='bubble'>Design</div>
+                      <div className='bubble'>NodeJs</div>
+                      <div className='bubble'>React</div>
+                      <div className='bubble text-xs'>Suprabase</div>
+                      <div className='bubble text-xs'>Digital Art</div>
                     </div>
                     <h1 className="cardmaintxt text-2xl font-semibold">Divsplash Creative.</h1>
+                    <h3 className="cardmaintxt">Open-source platform for developers to use illustrations<br/> for webpages.</h3>
                   </div>
         
                   <div>
-                    <div className="card cardpart1"></div>
+                    <img className="card object-cover cardpart1 bg-cover" src = {Velp}></img>
                     <div className="cardtextsub">
-                      <h6>web &nbsp;</h6>
-                      <h6>no code</h6>
+                    <div className='bubble'>Code</div>
+                      <div className='bubble'>Design</div>
                     </div>
-                    <h1 className="cardmaintxt">DivSPlash</h1>
+                    <h1 className="cardmaintxt text-2xl font-semibold">Interactive Portfolio Site</h1>
+                    <h1 className="cardmaintxt">Site</h1>
                     <h3 className="cardmaintxt">othercode</h3>
                   </div>
         
@@ -38,20 +45,22 @@ import { useScroll } from 'framer-motion'
               <div className="subparts2">
                 <div className="alignment2">
                   <div>
-                    <div className="card cardpart2"></div>
+                  <img className="card object-cover cardpart2 bg-cover" src = {Ladoo}></img>
                     <div className="cardtextsub">
-                      <h6>web &nbsp;</h6>
-                      <h6>no code</h6>
+                      <div className='bubble'>Design</div>
+                      <div className='bubble'>Figma</div>
+                      <div className='bubble text-xs'>HTML+CSS</div>
                     </div>
-                    <h1 className="cardmaintxt">code</h1>
-                    <h3 className="cardmaintxt">othercode</h3>
+                    <h1 className="cardmaintxt text-2xl font-semibold">Website Templates.</h1>
+                    <h3 className="cardmaintxt">Basic website landing page templates</h3>
                   </div>
                   <div>
-                    <div className="card cardpart2"></div>
+                  <img className="card object-cover cardpart2 bg-cover" src = {Activ}></img>
                     <div className="cardtextsub">
-                      <h6>web &nbsp;</h6>
-                      <h6>no code</h6>
+                      <div className='bubble'>Code</div>
+                      <div className='bubble'>Design</div>
                     </div>
+                    <h1 className="cardmaintxt text-2xl font-semibold">FullStack Activity Tracker.</h1>
                     <h1 className="cardmaintxt">code</h1>
                     <h3 className="cardmaintxt">othercode</h3>
                   </div>

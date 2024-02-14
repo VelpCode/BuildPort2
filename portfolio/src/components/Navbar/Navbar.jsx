@@ -9,7 +9,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 const Navbar = () => {
   return (
 
-    <div className="navbar inline-flex items-center justify-between">
+    <div className="navbar inline-flex items-center">
         <div className="logo">
           <h1 className='fontlad text-3xl font-extrabold'><span style={{ color: '#6366F1' }}>&lt;</span>velp<span style={{ color: '#6366F1' }}>/&gt;</span></h1>
         </div>
@@ -22,7 +22,9 @@ const Navbar = () => {
                   <Link to = "/blog">
                     <button>Blog</button>
                   </Link>
-                <li><a>About</a></li>
+                  <Link to = "/about">
+                    <button>Passions</button>
+                  </Link>
                 <li>
                 <motion.div className = 
                 "bbix inline-flex items-center cursor-pointer" 

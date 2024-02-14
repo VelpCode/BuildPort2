@@ -1,6 +1,10 @@
 
 
 
+.boxie {
+    border-radius: 3px solid #6366F1 ;
+}
+
 .bubble {
     border: 1px solid #aeb0fd;
     background-color: #f1f1fe; 
