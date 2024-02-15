@@ -19,20 +19,6 @@ const Blog = () => {
             'desc': 'what these blogs are going to be about, who am i..',
             'coverImg': 'https://i.ibb.co/tCVH5R6/whoami.png'
         },
-        {
-            "id":2,
-            "tags": "Tech",
-            "title": 'Lessons for Jan',
-            'desc': 'Everything I have learned this Jan, pitfalls probelms..',
-            'coverImg': 'https://i.ibb.co/48LHr7X/JanRecap.png'
-        },
-        {
-            "id":3,
-            "tags": "Random",
-            "title": 'Planetsat',
-            'desc': 'It always ends up leading there eventually..',
-            'coverImg': 'https://i.ibb.co/f0zqc1v/recap.png'
-        }
     ]
 
     return (

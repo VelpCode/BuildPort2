@@ -9,7 +9,6 @@ const Blogcontent = () => {
 
   
   const blogs = [
-
     {
         "id":1,
         "title": 'who am i',
@@ -31,7 +30,7 @@ const Blogcontent = () => {
         "title": 'Planetsat',
         'desc': 'It always ends up leading there eventually..',
         'coverImg': 'https://i.ibb.co/f0zqc1v/recap.png'
-    }
+    },
 ]
 
   let blog = blogs.filter(blog => blog.id == id)
