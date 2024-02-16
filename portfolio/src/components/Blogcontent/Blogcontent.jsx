@@ -46,14 +46,17 @@ const Blogcontent = () => {
               <h1 className='font-bold text-5xl my-1 pt-4'>{blog.title}</h1>
               <div className='pt-5 '><p>{blog.content}</p></div>
             </div>
-            <div className='items-center w-full bg-white rounded-xl drop-shadow-md py-5 max-h-[250px]'>
+            <div className='items-center w-full bg-white rounded-xl drop-shadow-md py-5 max-h-[450px]'>
                     <div>
-                        <img className='p-2 w-32 h-32 rounded-full mx-auto object-cover' src={``} />
-                        <h1 className='font-bold text-2xl text-center text-gray-900 pt-3'>velp</h1>
-                        <p className='text-center text-gray-900 font-medium'>Creative Developer & designer building things on the web</p>
+                        <img className='p-2 w-32 h-32 rounded-full mx-auto object-cover' src={`https://i.ibb.co/LRmLZqq/velp.jpg" alt="velp" border="0`} />
+                        <div className="headsec flex justify-center align-middle items-center">
+                        <h1 className='font-bold text-2xl text-gray-900 pt-3'>velp</h1>
+                        <img className='p-2 w-10 h-10 rounded-full' src={`https://i.ibb.co/cFHnxCP/Ganapatti.png" alt="Ganapatti" border="0`} />
+                        </div>
+                        <p className='text-center text-gray-900 font-medium p-3'>Creative Developer & designer building things on the web</p>
                     </div>
 
-                </div>
+            </div>
           </div>
         </div>
       </div>
