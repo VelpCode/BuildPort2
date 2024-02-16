@@ -10,11 +10,9 @@ const Navbar = () => {
   return (
 
     <div className="navbar inline-flex items-center">
-      <Link to = "/home">
         <div className="logo">
           <h1 className='fontlad text-3xl font-extrabold'><span style={{ color: '#6366F1' }}>&lt;</span>velp<span style={{ color: '#6366F1' }}>/&gt;</span></h1>
         </div>
-      </Link>
         <div className="items">
             <ul className='inline-flex items-center gap-6'>
                 <button><a href = "#work">Work</a></button>
