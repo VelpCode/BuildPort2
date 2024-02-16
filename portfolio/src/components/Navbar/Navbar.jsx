@@ -18,7 +18,7 @@ const Navbar = () => {
                   <Link to = "/home">
                     <button>Projects</button>
                   </Link>
-                <li><a>Templates</a></li>
+                <button><a href ="#templates">Templates</a></button>
                   <Link to = "/blog">
                     <button>Blog</button>
                   </Link>

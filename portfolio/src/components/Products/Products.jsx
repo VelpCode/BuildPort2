@@ -1,23 +1,25 @@
 import React from 'react'
-import JavaScr from './1tab.png'
-import DayPlan from './2tab.png'
-import Fitnest from './2tab.png'
-import Dtawp from './Dtawp.png'
+import JavaScr from './1tabbb.png'
+import DayPlan from './2tabbb.png'
+import Fitnest from './2tabbb.png'
+import Dtawp from './2tabbb.png'
+import { IoStarSharp } from "react-icons/io5";
+
 import "./products.css"
 
 const Products = () => {
   return (
-    <div className="container mt-10 max-w-[1240px]">
+    <div id = "templates" className="container mt-10 max-w-[1240px]">
         <div className="textsec">
             <h1 className='t text-4xl font-semibold'><span style={{ color: '#6366F1' }}>&lt;</span>Templates</h1>
-            <h1 className='lambo text-xl mb-5'>Notion templates I've built, made with love, all designed to help you win.<span className= "text-3xl font-bold" style={{ color: '#6366F1' }}>/&gt;</span></h1>    
+            <h1 className='lambo text-xl mb-5'>Notion templates I've built with love, all designed to help you win.<span className= "text-3xl font-bold" style={{ color: '#6366F1' }}>/&gt;</span></h1>    
         </div>
 
         <div className="max-w-[1240px] mx-auto my-[8vh]">
             <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 px-4 text-black">
                 
                 
-               
+            <a href="https://velpsworld.gumroad.com/l/javascriptnotes?layout=profile" target="_blank">
                     <div className="bg-white rounded-xl overflow-hidden drop-shadow-lg">
                     <img className="" src={JavaScr}/>
                     <div className="p-8">
@@ -27,6 +29,8 @@ const Products = () => {
                             <div className="read text-xs font-semibold ml-1 mt-3">FREE</div>
                         </div>
                     </div>
+            </a>
+            <a href="https://velpsworld.gumroad.com/l/designyourself?layout=profile" target="_blank">
                     <div className="bg-white rounded-xl overflow-hidden drop-shadow-lg">
                     <img className="" src={Dtawp}/>
                     <div className="p-8">
@@ -36,16 +40,7 @@ const Products = () => {
                             <div className="read text-xs font-semibold ml-1 mt-3">FREE</div>
                         </div>
                     </div>
-                    <div className="bg-white rounded-xl overflow-hidden drop-shadow-lg">
-                    <img className="" src={JavaScr}/>
-                    <div className="p-8">
-                            <div className="font-bold text-2xl my-1">Design Bible</div>
-                            <div className="babble text-xs font-thin max-xs mt-2">Design</div>
-                            <div className="text-sm text-gray-600 my-2 ml-1 mt-4">JavaScript dashboard with 60 different concepts & notes</div>
-                            <div className="read text-xs font-semibold ml-1 mt-3">FREE</div>
-                        </div>
-                    </div>
-
+            </a>
                 
             </div>
             
