@@ -10,7 +10,7 @@ const Products = () => {
     <div className="container mt-10 max-w-[1240px]">
         <div className="textsec">
             <h1 className='t text-4xl font-semibold'><span style={{ color: '#6366F1' }}>&lt;</span>Templates</h1>
-            <h1 className='lambo text-xl mb-5'>Check out the products/templates I've created, all designed to help you with your goals.<span className= "text-3xl font-bold" style={{ color: '#6366F1' }}>/&gt;</span></h1>    
+            <h1 className='lambo text-xl mb-5'>Notion templates I've built, made with love, all designed to help you win.<span className= "text-3xl font-bold" style={{ color: '#6366F1' }}>/&gt;</span></h1>    
         </div>
 
         <div className="max-w-[1240px] mx-auto my-[8vh]">
@@ -24,16 +24,16 @@ const Products = () => {
                             <div className="font-bold text-2xl my-1">JS Concept Dashboard</div>
                             <div className="babble text-xs font-thin max-xs mt-2">Code</div>
                             <div className="text-sm text-gray-600 my-2 ml-1 mt-4">JavaScript dashboard with 60 different concepts & notes</div>
-                            <div className="read text-xs font-semibold ml-1 mt-3">$0</div>
+                            <div className="read text-xs font-semibold ml-1 mt-3">FREE</div>
                         </div>
                     </div>
                     <div className="bg-white rounded-xl overflow-hidden drop-shadow-lg">
                     <img className="" src={Dtawp}/>
                     <div className="p-8">
                             <div className="font-bold text-2xl my-1">Daily Tracker</div>
-                            <div className="babble text-xs font-thin max-xs mt-2">Systems</div>
+                            <div className="babble text-xs font-thin max-xs mt-2 min-w-[8vh]">Systems</div>
                             <div className="text-sm text-gray-600 my-2 ml-1 mt-4">JavaScript dashboard with 60 different concepts & notes</div>
-                            <div className="read text-xs font-semibold ml-1 mt-3">$0</div>
+                            <div className="read text-xs font-semibold ml-1 mt-3">FREE</div>
                         </div>
                     </div>
                     <div className="bg-white rounded-xl overflow-hidden drop-shadow-lg">
@@ -42,7 +42,7 @@ const Products = () => {
                             <div className="font-bold text-2xl my-1">Design Bible</div>
                             <div className="babble text-xs font-thin max-xs mt-2">Design</div>
                             <div className="text-sm text-gray-600 my-2 ml-1 mt-4">JavaScript dashboard with 60 different concepts & notes</div>
-                            <div className="read text-xs font-semibold ml-1 mt-3">$0</div>
+                            <div className="read text-xs font-semibold ml-1 mt-3">FREE</div>
                         </div>
                     </div>
 
