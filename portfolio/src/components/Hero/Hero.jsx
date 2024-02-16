@@ -47,15 +47,17 @@ const Hero = () => {
               </a>
                 <TbWriting />
                 </div>
-                <motion.div className = "bbix font-bold mt-5 inline-flex items-center" 
+                <motion.div className = "bbix mt-5 inline-flex items-center" 
                 whileHover={{
                   scale: 1.1,
                   textShadow: "0px 0px 8px rgb(255,255,255)",
                   boxShadow: "2px 10px 8px rgb(255,255,255)",
                 }}>
+                  <a href = "#work">
                   See my work 
+                  </a>
                 <FaArrowRight 
-                className='text-[5vh] ml-3'/></motion.div>
+                className='text-[3vh] ml-3'/></motion.div>
                 <YourIcon  className = "mamooty ml-8"/>
               </div>
           <Arrow className = "pindu"/>

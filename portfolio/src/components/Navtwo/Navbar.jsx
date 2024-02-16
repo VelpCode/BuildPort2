@@ -17,9 +17,13 @@ const Navbar = () => {
       </Link>
         <div className="items">
             <ul className='inline-flex items-center gap-6'>
-                <button><a href = "#work">Work</a></button>
-                <button><a href ="#templates">Templates</a></button>
-                  <Link to = "/blog">
+            <Link to = "/home">
+                <button>Work</button>
+            </Link>
+            <Link to = "/home">
+                <button>Templates</button>
+            </Link>                  
+            <Link to = "/blog">
                     <button>Blog</button>
                   </Link>
                   <Link to = "/about">

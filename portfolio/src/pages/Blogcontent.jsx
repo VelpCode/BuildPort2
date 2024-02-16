@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar/Navbar'
 import Content from '../components/Blogcontent/Blogcontent'
 import { motion } from "framer-motion";
 import { useScroll } from 'framer-motion';

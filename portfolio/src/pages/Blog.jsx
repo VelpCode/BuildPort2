@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar/Navbar";
+import Navtwo from "../components/Navtwo/Navbar";
 import Products from "../components/Products/Products";
 import Quote from "../components/Quote/Quote";
 import "./blogs.css"
@@ -24,7 +24,7 @@ const Blog = () => {
     return (
     
         <div className="w-full">
-            <Navbar />
+            <Navtwo />
             <div className="headtitle mt-[15vh] max-w-[200vh] items-center justify-center flex flex-col">
                 <div className="leftsec">
                 <h1 className="curious lg:text-5xl md:text-4xl sm:text-xl font-semibold"><span style={{ color: '#6366F1' }}>&lt;</span> Combining my curiosities.</h1>

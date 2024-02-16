@@ -1,0 +1,31 @@
+a {
+    font-size: 3vh;
+}
+
+.bbox {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #6366F1;
+}
+
+
+.pixvelp {
+    height: 10vh;
+}
+
+
+.fontlad {
+    user-select: none;
+}
+
+
+.navbar {
+    width: 100%;
+    padding: 20px;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
