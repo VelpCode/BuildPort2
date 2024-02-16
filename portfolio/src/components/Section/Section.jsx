@@ -12,7 +12,7 @@ import { useScroll } from 'framer-motion'
 
     const Section = () => {
         return (
-            <div className="maindiv">
+            <div id = "work" className="maindiv">
               <div className="subparts1">
                 <div className="alignment1">
                   <h1 className='heading text-4xl font-semibold'><span style={{ color: '#6366F1' }}>&lt;</span>Work<span style={{ color: '#6366F1' }}>/&gt;</span></h1>

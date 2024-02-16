@@ -31,14 +31,20 @@ const Hero = () => {
         <div className="borderleft flex-col items-start max-w-[200vh] mt-20 sm:justify-center xs:justify-center">
             <h1 className='text-5xl font-semibold mt-3'>I'm a <span className = "text-ind text-indigo-500">creative</span> <br/> developer & designer.</h1>
             
-            <p className='paratext text-l mt-7 w-[100vh]'>I specialize in building stunning websites & applications that help individuals in enhancing their productivity, programming & daily goals.
+            <p className='paratext text-l mt-7 w-[100vh]'>Combining my passions, building things on the web, creating products, helping people do the same through writing.
 
 
 </p>
               <div className="icons flex text-[5vh] gap-8 mt-8">
+              <a className = "text-[5vh]" href="https://twitter.com/velpcode" target="_blank" rel="noopener noreferrer">
                 <FaTwitter/>
+              </a>
+              <a className = "text-[5vh]" href="https://www.linkedin.com/in/aman-velpula-9b8b3619b/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedinIn />
+              </a>
+              <a className = "text-[5vh]" href="https://www.instagram.com/velpwrld/" target="_blank" rel="noopener noreferrer">
                 <FaInstagram />
+              </a>
                 <TbWriting />
                 </div>
                 <motion.div className = "bbix font-bold mt-5 inline-flex items-center" 
