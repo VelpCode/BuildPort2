@@ -15,7 +15,7 @@ const Blogcontent = () => {
         "tags": "VELP",
         'desc': 'what these blogs are going to be about, who am i..',
         'coverImg': 'https://i.ibb.co/tCVH5R6/whoami.png',
-        'content': `what is up apes.
+        'content': `**what is up guys.**
 
         before I get into who I am, I just want to say that I’m honestly hyped that this is up, and you can see this.
         
@@ -23,7 +23,7 @@ const Blogcontent = () => {
         
         I’ve struggled with 
         
-        who am I?
+        **who am I?**
         
         If you don’t follow me on social media or you aren’t a direct friend, you know a thing about me
         
@@ -39,9 +39,7 @@ const Blogcontent = () => {
         
         **I** honestly i don’t know yet. I’m using this blog as a means to find out more of what I want to write about, but for now.. I’m going to dive deeper into topics about combining passions, code, design, writing and overall lifestyle.
         
-        I know this caters to a very niche audience,
-        
-        One step @ a time.`
+        One step @ a time..`
     },
     {
         "id":2,
@@ -61,7 +59,17 @@ const Blogcontent = () => {
 
   let blog = blogs.filter(blog => blog.id == id)
   blog = blog[0]
-  console.log(blog);
+
+  const renderTextWithBold = (text) => {
+    // Split text by "**" considering the "**" might be at the start or end of the text
+    return text.split(/(\*\*[^*]+\*\*)/g).map((part, index) => {
+      // Check if part is meant to be bold
+      if (part.startsWith('**') && part.endsWith('**')) {
+        return <strong key={index}>{part.slice(2, -2)}</strong>;
+      }
+      return part;
+    });
+  };
 
   return (  
     <div>
@@ -70,7 +78,15 @@ const Blogcontent = () => {
           <div className='grid lg:grid-cols-3 md:grid-cols-3 ss:gri-cols-1 gap-x-8 gap-y-8 px-4 sm:pt-20 md:mt-0 ss: pt-20 text-black'>
             <div className = "col-span-2 gap-x-8 gap-y-8">
               <h1 className='font-bold text-5xl my-1 pt-4'>{blog.title}</h1>
-              <div className='pt-5 '><p>{blog.content}</p></div>
+              <div className='pt-5 '>
+              {blog.content && blog.content.split('\n').map((paragraph, index) => (
+                  <React.Fragment key={index}>
+                    {renderTextWithBold(paragraph)}
+
+                    <br />
+                  </React.Fragment>
+                ))}
+              </div>
             </div>
             <div className='items-center w-full bg-white rounded-xl drop-shadow-md py-5 max-h-[450px]'>
                     <div>
