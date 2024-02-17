@@ -10,7 +10,7 @@ import "./products.css"
 const Products = () => {
   return (
     <div id = "templates" className="container mt-10 max-w-[1240px]">
-        <div className="textsec">
+        <div className="textsec ml-10">
             <h1 className='t text-4xl font-semibold'><span style={{ color: '#6366F1' }}>&lt;</span>Templates</h1>
             <h1 className='lambo text-xl mb-5'>Notion templates I've built with love, all designed to help you win.<span className= "text-3xl font-bold" style={{ color: '#6366F1' }}>/&gt;</span></h1>    
         </div>
