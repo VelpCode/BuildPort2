@@ -29,3 +29,28 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 768px) {
+
+    .navbar {
+        width: 10%;
+    }
+
+    .logo {
+        display: none;
+        align-items: center;
+
+    }
+
+    .items {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    a {
+        font-size: 10px;
+    }
+
+}
+

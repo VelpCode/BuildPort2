@@ -11,3 +11,28 @@
     pointer-events: none;
     user-select: none;
 }
+
+@media (max-width: 768px) {
+
+    .tex {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .tex {
+        font-size: 20px;
+    }
+
+}
+
+
+@media (max-width: 300px) {
+
+    .tex {
+        font-size: 10px;
+    }
+
+}
