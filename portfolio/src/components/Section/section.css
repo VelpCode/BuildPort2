@@ -80,3 +80,16 @@ body{
   width: 250px;
 }
 }
+
+@media (max-width:770px){
+  .card{
+    width: 450px;
+    height: 450px;
+  }
+  }
+
+  @media (max-width:370px){
+    .card{
+      width: 250px;
+    }
+    }

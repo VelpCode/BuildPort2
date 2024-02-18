@@ -36,7 +36,9 @@ const Navbar = () => {
                   scale: 1.1,
                   textShadow: "0px 0px 8px rgb(255,255,255)",
                   boxShadow: "0px 0px 8px rgb(255,255,255)",
-                }}>Let's talk 
+                }}
+                
+                onClick={() => alert('Feature being built.. 🛠️')}>Let's talk 
                </motion.div>
               </li>
             </ul>

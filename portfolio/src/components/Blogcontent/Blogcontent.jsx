@@ -17,29 +17,39 @@ const Blogcontent = () => {
         'coverImg': 'https://i.ibb.co/tCVH5R6/whoami.png',
         'content': `**what is up guys.**
 
-        before I get into who I am, I just want to say that I’m honestly hyped that this is up, and you can see this.
+        before I get into it, I just want to say that I’m honestly hyped that this is up, and you can see this.
         
-        the process of building this entire website from the design, to the branding to the ‘blog’ section and this content you’re currently looking at has been nothing but amazing.
+        the process of building this entire website from the code to the design, to the branding to the ‘blog’ section and writing the content you’re currently looking at has been nothing but amazing.
         
-        I’ve struggled with 
+        the goal with this wasn’t just to build a portfolio-site, it was to combine my passions and create my own world.
+        
+        alright, apart from the site..
         
         **who am I?**
         
-        If you don’t follow me on social media or you aren’t a direct friend, you know a thing about me
+        If you don’t follow me on social media or you aren’t a direct friend, you’re probably wondering who this dude is.
         
-        velp (aman velpula) i’m a 21 year old university student that has 
+        I go by velp (aman velpula) and i’m a 21 year old university student that has a vast set of interests from design, art, code, weightlifting, flips, psychology, spirituality & a lil more stuff..
         
-        growing up, I was a rebellious that had zero for school, i was the kid that would doodle on the desks, attempt flips from roofs, 
+        I started my tech journey documenting my coding progress on twitter which lead me to learning how to write better, which then lead me to learn how to build templates on notion, which then lead me how to design interfaces..
         
-        my whole life has been taking a bunch of risks, trying a lot of shit out, 
+        Which is how I ended up putting this entire site together.
         
-        which has lead me on a quest to keep experiment, try a bunch of things out and improve the multiple passions I’ve always naturaully stuck to and aim to find a sick way to combine all of it together.
+        **Yeah.. it all started from connecting the all the dots with the things I've learned from that bird app (X now).**
         
-        **what am i going to write about?**
+        I’m very greatful for starting this journey & the people I’ve connected with on there.
         
-        **I** honestly i don’t know yet. I’m using this blog as a means to find out more of what I want to write about, but for now.. I’m going to dive deeper into topics about combining passions, code, design, writing and overall lifestyle.
+        My goal is to keep improving on my technical skillset and finding unique ways to bridge everything I’ve learned together that can help people solve their problems.
         
-        One step @ a time..`
+        I honestly i don’t know the direction I’m going to go with these blogs, I'm aiming to find that sense of direction the more I write here and share perspectives
+        
+        but the goal right now is to simply keep improving with my interests.. and take it
+        
+        **One step @ a time.**
+        
+        hope you guys stay blessed.
+        
+        -velp ❤️`
     },
     {
         "id":2,
@@ -77,8 +87,8 @@ const Blogcontent = () => {
         <div className = "max-w-[1240px] mx-auto">
           <div className='grid lg:grid-cols-3 md:grid-cols-3 ss:gri-cols-1 gap-x-8 gap-y-8 px-4 sm:pt-20 md:mt-0 ss: pt-20 text-black'>
             <div className = "col-span-2 gap-x-8 gap-y-8">
-              <h1 className='font-bold text-5xl my-1 pt-4'>{blog.title}</h1>
-              <div className='pt-5 '>
+              <h1 className='font-bold text-5xl my-1 pt-4 p-10'>{blog.title}</h1>
+              <div className='p-10'>
               {blog.content && blog.content.split('\n').map((paragraph, index) => (
                   <React.Fragment key={index}>
                     {renderTextWithBold(paragraph)}
@@ -90,9 +100,9 @@ const Blogcontent = () => {
             </div>
             <div className='items-center w-full bg-white rounded-xl drop-shadow-md py-5 max-h-[450px]'>
                     <div>
-                        <img className='p-2 w-32 h-32 rounded-full mx-auto object-cover' src={`https://i.ibb.co/LRmLZqq/velp.jpg" alt="velp" border="0`} />
+                        <img className='p-2 w-40 h-40 rounded-full mx-auto object-cover' src={`https://i.ibb.co/LRmLZqq/velp.jpg" alt="velp" border="0`} />
                         <div className="headsec flex justify-center align-middle items-center">
-                        <h1 className='font-bold text-2xl text-gray-900 pt-3'>velp</h1>
+                        <h1 className='font-bold text-5xl text-gray-900 pt-3'>velp</h1>
                         <img className='p-2 w-10 h-10 rounded-full' src={`https://i.ibb.co/cFHnxCP/Ganapatti.png" alt="Ganapatti" border="0`} />
                         </div>
                         <p className='text-center text-gray-900 font-medium p-3'>Creative Developer & designer building things on the web</p>
