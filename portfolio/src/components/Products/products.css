@@ -40,12 +40,18 @@
 }
 
 
+
 @media (max-width: 900px) {
 
+    .wontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
     .bawxz {
-        height: 600px;
+        height: 630px;
         width: 500px;
-        
     }    
 
 
@@ -54,6 +60,12 @@
 
 @media (max-width: 700px) {
 
+    .wontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
     .bawxz {
         height: 530px;
         width: 400px;
