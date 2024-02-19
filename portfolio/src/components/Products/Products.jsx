@@ -20,7 +20,7 @@ const Products = () => {
                 
                 
             <a href="https://velpsworld.gumroad.com/l/javascriptnotes?layout=profile" target="_blank">
-                    <div className="bg-white rounded-xl overflow-hidden drop-shadow-lg">
+                    <div className="bawxz bg-white rounded-xl overflow-hidden drop-shadow-lg">
                     <img className="" src={JavaScr}/>
                     <div className="p-8">
                             <div className="font-bold text-2xl my-1">JS Concept Dashboard</div>
@@ -31,12 +31,12 @@ const Products = () => {
                     </div>
             </a>
             <a href="https://velpsworld.gumroad.com/l/designyourself?layout=profile" target="_blank">
-                    <div className="bg-white rounded-xl overflow-hidden drop-shadow-lg">
+                    <div className="bawxz bg-white rounded-xl overflow-hidden drop-shadow-lg">
                     <img className="" src={Dtawp}/>
                     <div className="p-8">
-                            <div className="font-bold text-2xl my-1">Daily Tracker</div>
+                            <div className="font-bold text-2xl my-1">Design Your Days</div>
                             <div className="babble text-xs font-thin max-xs mt-2 min-w-[8vh]">Systems</div>
-                            <div className="text-sm text-gray-600 my-2 ml-1 mt-4">JavaScript dashboard with 60 different concepts & notes</div>
+                            <div className="text-sm text-gray-600 my-2 ml-1 mt-4">Notion based tracker & activity manager to design your days</div>
                             <div className="read text-xs font-semibold ml-1 mt-3">FREE</div>
                         </div>
                     </div>

@@ -54,13 +54,62 @@ rotate: 29deg;
 transform: scaleY(-1);
 }
 
+@media (max-width: 900px) {
+
+  .ladoo {
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  .pindu {
+    display: none;
+  }
+
+  .mamooty {
+    display: none;
+  }
+
+  .container {
+    margin-top: 10vh;
+    flex-direction: column-reverse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .borderleft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headdie {
+    text-align: center;
+    font-size: 40px;
+
+  }
+
+  .stacktech {
+    display: none;
+  }
+
+  .paratext {
+    font-size: 15px;
+    text-align: center;
+    max-width: 600px;
+  }
+
+}
+
 @media (max-width: 768px) {
 
   .ladoo {
     height: 200px;
     justify-content: center;
     align-items: center;
-    margin-left: 10vh;
   }
 
 
@@ -110,7 +159,6 @@ transform: scaleY(-1);
     height: 200px;
     justify-content: center;
     align-items: center;
-    margin-left: 10vh;
   }
 
   .pindu {

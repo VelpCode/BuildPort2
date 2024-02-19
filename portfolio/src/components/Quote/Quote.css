@@ -12,10 +12,23 @@
     user-select: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
 
     .tex {
         font-size: 20px;
+        max-width: 500px;
+        margin-top: 5vh;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    .tex {
+        font-size: 15px;
+        max-width: 500px;
+        margin-top: 5vh;
     }
 
 }
@@ -23,7 +36,10 @@
 @media (max-width: 600px) {
 
     .tex {
-        font-size: 20px;
+        font-size: 15px;
+        max-width: 300px;
+        align-items: center;
+        text-align: center;
     }
 
 }
@@ -33,6 +49,10 @@
 
     .tex {
         font-size: 10px;
+        max-width: 300px;
+        align-items: center;
+        text-align: center;
     }
+
 
 }
