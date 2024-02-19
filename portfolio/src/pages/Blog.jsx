@@ -25,7 +25,7 @@ const Blog = () => {
     
         <div className="w-full">
             <Navtwo />
-            <div className="headtitle mt-[15vh] max-w-[200vh] items-center justify-center flex flex-col">
+            <div className="headtitle mt-[13vh] max-w-[200vh] items-center justify-center flex flex-col">
                 <div className="leftsec">
                 <h1 className="curious lg:text-5xl md:text-4xl sm:text-xl font-semibold"><span style={{ color: '#6366F1' }}>&lt;</span> Combining my curiosities.</h1>
                 </div>
@@ -39,7 +39,7 @@ const Blog = () => {
                 
                 {blogs.map((blog) => 
                 <Link to = {`/blogcontent/${blog.id}`}>
-                    <div className="bg-white rounded-xl overflow-hidden drop-shadow-lg">
+                    <div className="secblog bg-white rounded-xl overflow-hidden drop-shadow-lg">
                     <img className="h-56 w-full object-cover" src={blog.coverImg} />
                     <div className="p-8">
                             <div className="font-bold text-2xl my-1">{blog.title}</div>

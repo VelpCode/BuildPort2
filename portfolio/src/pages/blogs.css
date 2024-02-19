@@ -34,3 +34,47 @@
 .read {
     font-size: 10px;
 }
+
+
+@media (max-width: 620px) {
+
+    .secblog {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 300px;
+        align-items: center;
+    }
+
+    .curious {
+
+        font-size: 20px;
+        display: flex;
+        text-align: center;
+
+    }
+
+
+}
+
+
+@media (max-width: 520px) {
+
+    .secblog {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 300px;
+        align-items: center;
+    }
+
+    .curious {
+
+        font-size: 13px;
+        display: flex;
+        text-align: center;
+        max-width: 300px;
+    }
+
+
+}
