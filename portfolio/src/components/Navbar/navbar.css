@@ -33,7 +33,9 @@ a {
 @media (max-width: 768px) {
 
     .navbar {
-        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .logo {
@@ -42,15 +44,6 @@ a {
 
     }
 
-    .items {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    a {
-        font-size: 10px;
-    }
 
 }
 

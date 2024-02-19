@@ -65,31 +65,14 @@ body{
   margin-left: 20px;
 }
 
-@media (max-width:800px) {
-  .subparts1{
-      width: 100%;
+
+
+@media (max-width:800px){
+
+  .maindiv {
+    display: flex;
+    flex-direction: column;
   }
 
-  .subparts2{
-      width: 100%;
-  }
+
 }
-
-@media (max-width:370px){
-.card{
-  width: 250px;
-}
-}
-
-@media (max-width:770px){
-  .card{
-    width: 450px;
-    height: 450px;
-  }
-  }
-
-  @media (max-width:370px){
-    .card{
-      width: 250px;
-    }
-    }
