@@ -4,7 +4,6 @@ body{
 }
 .maindiv{
   display: flex;
-  flex-wrap: wrap;
 }
 
 .subparts1,.subparts2{

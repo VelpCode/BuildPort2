@@ -12,13 +12,13 @@ import { useScroll } from 'framer-motion'
 
     const Section = () => {
         return (
-            <div id = "work" className="maindiv">
-              <div className="subparts1">
+            <div id = "work" className="maindiv gap-[60px]">
+              <div className="subparts1 ml-[40px]">
                 <div className="alignment1">
                   <h1 className='heading text-4xl font-semibold'><span style={{ color: '#6366F1' }}>&lt;</span>Work<span style={{ color: '#6366F1' }}>/&gt;</span></h1>
                   <div>
                     <img className="card object-cover cardpart1 bg-cover" src = {Shit}></img>
-                    <div className="cardtextsub gap-2">
+                    <div className="cardtextsub gap-2 max-w-[500px]">
                       <div className='bubble'>NodeJs</div>
                       <div className='bubble'>React</div>
                       <div className='bubble text-xs'>Suprabase</div>
@@ -30,7 +30,7 @@ import { useScroll } from 'framer-motion'
         
                   <div>
                     <img className="card object-cover cardpart1 bg-cover" src = {Velp}></img>
-                    <div className="cardtextsub">
+                    <div className="cardtextsub max-w-[500px]">
                     <div className='bubble'>Code</div>
                       <div className='bubble'>Design</div>
                     </div>
@@ -45,7 +45,7 @@ import { useScroll } from 'framer-motion'
                 <div className="alignment2">
                   <div>
                   <img className="card object-cover cardpart2 bg-cover" src = {Ladoo}></img>
-                    <div className="cardtextsub">
+                    <div className="cardtextsub max-w-[500px]">
                       <div className='bubble'>Design</div>
                       <div className='bubble'>Figma</div>
                       <div className='bubble text-xs'>HTML+CSS</div>
@@ -55,7 +55,7 @@ import { useScroll } from 'framer-motion'
                   </div>
                   <div>
                   <img className="card object-cover cardpart2 bg-cover" src = {Activ}></img>
-                    <div className="cardtextsub">
+                    <div className="cardtextsub max-w-[500px]">
                     <div className='bubble'>NodeJs</div>
                       <div className='bubble'>React</div>
                       <div className='bubble text-xs'>MongoDB</div>
