@@ -19,6 +19,13 @@ const Blog = () => {
             'desc': 'what these blogs are going to be about, who am i..',
             'coverImg': 'https://i.ibb.co/tCVH5R6/whoami.png'
         },
+        {
+            "id":2,
+            "title": 'Digital writing + building',
+            "tags": "VELP",
+            'desc': '.',
+            'coverImg': 'https://i.ibb.co/tCVH5R6/whoami.png'
+        },
     ]
 
     return (
