@@ -3,6 +3,7 @@ import Hero from "../components/Hero/Hero";
 import Products from "../components/Products/Products";
 import Section from "../components/Section/Section";
 import Quote from "../components/Quote/Quote";
+import Footer from "../components/Footer/Footer";
 
 
 const Home = () =>{
@@ -15,6 +16,7 @@ const Home = () =>{
             <Quote />
             <Products />
             <Section />
+            <Footer />
         </>
 
     )
