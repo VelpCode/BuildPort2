@@ -21,10 +21,10 @@ const Blog = () => {
         },
         {
             "id":2,
-            "title": 'Digital writing + building',
-            "tags": "VELP",
-            'desc': '.',
-            'coverImg': 'https://i.ibb.co/tCVH5R6/whoami.png'
+            "title": 'Balancing multiple skills',
+            "tags": "Life",
+            'desc': 'how im going about balancing code, writing an..',
+            'coverImg': 'https://i.ibb.co/pZBYFH3/masterofnull.png'
         },
     ]
 
@@ -46,7 +46,7 @@ const Blog = () => {
                 
                 {blogs.map((blog) => 
                 <Link to = {`/blogcontent/${blog.id}`}>
-                    <div className="secblog bg-white rounded-xl overflow-hidden drop-shadow-lg">
+                    <div className="secblog bg-white rounded-xl overflow-hidden h-[480px] drop-shadow-lg">
                     <img className="h-56 w-full object-cover" src={blog.coverImg} />
                     <div className="p-8">
                             <div className="font-bold text-2xl my-1">{blog.title}</div>

@@ -31,7 +31,7 @@ const Blogcontent = () => {
         
         I go by velp (aman velpula) and i’m a 21 year old university student that has a vast set of interests from design, art, code, weightlifting, flips, psychology, spirituality & a lil more stuff..
         
-        I started my tech journey documenting my coding progress on twitter which lead me to learning how to write better, which then lead me to learn how to build templates on notion, which then lead me how to design interfaces..
+        I started my tech journey documenting my coding progress on twitter which led me to learning how to write better, which then led me to learn how to build templates on notion, which then led me how to design interfaces..
         
         Which is how I ended up putting this entire site together.
         
@@ -53,10 +53,68 @@ const Blogcontent = () => {
     },
     {
         "id":2,
-        "tags": "Tech",
-        "title": 'Lessons for Jan',
-        'desc': 'Everything I have learned this Jan, pitfalls probelms..',
-        'coverImg': 'https://i.ibb.co/48LHr7X/JanRecap.png'
+        "tags": "Life",
+        "title": 'Balancing multiple skills',
+        'desc': 'How Im going about balancing code, writing..',
+        'coverImg': 'https://i.ibb.co/48LHr7X/JanRecap.png',
+        'content': ` **ever since I could remember, the people around me have always described me as a jack of all trades**
+        
+        sometimes even I catch myself not knowing what to say when asked who i am and what I’m good at.
+        
+        and it’s true, i’ve never been able to strictly limit myself to a single skill or activity.
+        
+        i’ve always admired people that are able to dial into a single skill, obsess over it night and day, these beasts make the most progress in their respective crafts.
+        
+        but that’s just not me, if I’m not working on different things, I don’t want it.
+
+        right now a few skills I’m building (in public) are:
+        
+        **1) coding - web development, front & backend development**
+        
+        **2) design - figma, photoshop, tailwindCSS & template components**
+        
+        **3) writing - note taking, perspective sharing, social media writing.**
+        
+        **4) art - illustrations, sketches, freeform doodles, character design.**
+        
+        it’s a lot, i’m doing a lot, but I love every single fucking part of it.
+        
+        am I cutting my progress short? maybe, but I’m trying to approach it in a structured way.
+        
+        here’s how I break it down:
+        
+        **the first 1-2 hours for my mornings is strictly for writing, **
+        
+        i write as much as i can, the stuff that’s on my mind, problems I’m going through, how I’ve fixed them, whateverelse.. this post right now is that first hour I’m utilizing.
+        
+        heading into the afternoons i switch locations up on campus out of habit, and we enter smelly developer mode, 
+        
+        i like switching locations because it puts me in different mental states.
+        
+        **the next 3-6 hours are entirely for code, design or learning concepts,** hours vary depending if I’ve got work or not. 
+        
+        and for art, I approach it very different..
+        
+        it’s more intuition based and when I feel a lot more creative, I’ll get some sketches in, create some concepts for ideas, get in that zone. this usually hits me once a week.
+        
+        **it's not an equal distribution of effort either**
+        
+        my main focus is building up my dev skills, I’m approaching everything else secondary, but they are needed for **VELP** as a vehicale to function.
+        
+        will this work for everyone? probably not, but if you’re a multipassionate person, I know for a fact that tunnel visioning into one thing is not going to work for you.
+        
+        we love jumping into different worlds every now and then
+        
+        and creating our own.
+        
+        if you liked this, or have a different perspective, let me know, shoot me a dm.
+        
+        always open to new perspectives & conversations with my builders.
+        
+        until next time, stay blessed, stay hydrated.
+        
+        velp ❤️
+        `
     },
     {
         "id":3,
