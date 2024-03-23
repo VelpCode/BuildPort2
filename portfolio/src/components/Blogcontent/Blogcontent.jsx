@@ -6,7 +6,6 @@ const Blogcontent = () => {
 
   const { id }= useParams()
 
-
   
   const blogs = [
     {
@@ -116,6 +115,9 @@ const Blogcontent = () => {
         velp ❤️
         `
     },
+
+    
+
     {
         "id":3,
         "tags": "Random",

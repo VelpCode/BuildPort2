@@ -3,7 +3,7 @@ import Blog from './Blog.jsx'
 
 
 const Blogpage = ({blogs}) => {
- 
+
 
   return (
     <div>
